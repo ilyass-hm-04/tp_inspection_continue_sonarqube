@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-11-02T19:00:59.554575Z</date>
+  <millis>1793646059554</millis>
+  <nanos>575000</nanos>
+  <sequence>0</sequence>
+  <logger>system.Client</logger>
+  <level>INFO</level>
+  <class>system.Client</class>
+  <method>afficherClient</method>
+  <thread>3</thread>
+  <message> nom du client:zakrani</message>
+</record>
+<record>
+  <date>2026-11-02T19:00:59.607315800Z</date>
+  <millis>1793646059607</millis>
+  <nanos>315800</nanos>
+  <sequence>1</sequence>
+  <logger>system.Client</logger>
+  <level>INFO</level>
+  <class>system.Client</class>
+  <method>afficherClient</method>
+  <thread>3</thread>
+  <message>le nom du client:zakrani</message>
+</record>
+<record>
+  <date>2026-11-02T19:00:59.610857400Z</date>
+  <millis>1793646059610</millis>
+  <nanos>857400</nanos>
+  <sequence>2</sequence>
+  <logger>system.Client</logger>
+  <level>INFO</level>
+  <class>system.Client</class>
+  <method>afficherClient</method>
+  <thread>3</thread>
+  <message>le prenom du client:abdelali</message>
+</record>
+<record>
+  <date>2026-11-02T19:00:59.610857400Z</date>
+  <millis>1793646059610</millis>
+  <nanos>857400</nanos>
+  <sequence>3</sequence>
+  <logger>system.Client</logger>
+  <level>INFO</level>
+  <class>system.Client</class>
+  <method>afficherClient</method>
+  <thread>3</thread>
+  <message>-- Les comptes bancaires associes : ------</message>
+</record>
+<record>
+  <date>2026-11-02T19:00:59.708709900Z</date>
+  <millis>1793646059708</millis>
+  <nanos>709900</nanos>
+  <sequence>4</sequence>
+  <logger>system.Client</logger>
+  <level>INFO</level>
+  <class>system.Client</class>
+  <method>afficherClient</method>
+  <thread>3</thread>
+  <message>Compte cr�e le Tue Jan 10 00:10:00 GMT 2017, NumCompte=1, Solde=1000.0]</message>
+</record>
+<record>
+  <date>2026-11-02T19:00:59.711488500Z</date>
+  <millis>1793646059711</millis>
+  <nanos>488500</nanos>
+  <sequence>5</sequence>
+  <logger>system.Client</logger>
+  <level>INFO</level>
+  <class>system.Client</class>
+  <method>afficherClient</method>
+  <thread>3</thread>
+  <message>Compte cr�e le Wed Jan 11 00:11:00 GMT 2017, NumCompte=2, Solde=2000.0]</message>
+</record>
+<record>
+  <date>2026-11-02T19:00:59.714190Z</date>
+  <millis>1793646059714</millis>
+  <nanos>190000</nanos>
+  <sequence>6</sequence>
+  <logger>system.Client</logger>
+  <level>INFO</level>
+  <class>system.Client</class>
+  <method>afficherClient</method>
+  <thread>3</thread>
+  <message> nom du client:zakrani</message>
+</record>
+<record>
+  <date>2026-11-02T19:00:59.714190Z</date>
+  <millis>1793646059714</millis>
+  <nanos>190000</nanos>
+  <sequence>6</sequence>
+  <logger>system.Client</logger>
+  <level>INFO</level>
+  <class>system.Client</class>
+  <method>afficherClient</method>
+  <thread>3</thread>
+  <message> nom du client:zakrani</message>
+</record>
+<record>
+  <date>2026-11-02T19:00:59.714190Z</date>
+  <millis>1793646059714</millis>
+  <nanos>190000</nanos>
+  <sequence>7</sequence>
+  <logger>system.Client</logger>
+  <level>INFO</level>
+  <class>system.Client</class>
+  <method>afficherClient</method>
+  <thread>3</thread>
+  <message>le nom du client:zakrani</message>
+</record>
+<record>
+  <date>2026-11-02T19:00:59.714190Z</date>
+  <millis>1793646059714</millis>
+  <nanos>190000</nanos>
+  <sequence>7</sequence>
+  <logger>system.Client</logger>
+  <level>INFO</level>
+  <class>system.Client</class>
+  <method>afficherClient</method>
+  <thread>3</thread>
+  <message>le nom du client:zakrani</message>
+</record>
+<record>
+  <date>2026-11-02T19:00:59.719896400Z</date>
+  <millis>1793646059719</millis>
+  <nanos>896400</nanos>
+  <sequence>8</sequence>
+  <logger>system.Client</logger>
+  <level>INFO</level>
+  <class>system.Client</class>
+  <method>afficherClient</method>
+  <thread>3</thread>
+  <message>le prenom du client:abdelali</message>
+</record>
+<record>
+  <date>2026-11-02T19:00:59.719896400Z</date>
+  <millis>1793646059719</millis>
+  <nanos>896400</nanos>
+  <sequence>8</sequence>
+  <logger>system.Client</logger>
+  <level>INFO</level>
+  <class>system.Client</class>
+  <method>afficherClient</method>
+  <thread>3</thread>
+  <message>le prenom du client:abdelali</message>
+</record>
+<record>
+  <date>2026-11-02T19:00:59.721983100Z</date>
+  <millis>1793646059721</millis>
+  <nanos>983100</nanos>
+  <sequence>9</sequence>
+  <logger>system.Client</logger>
+  <level>INFO</level>
+  <class>system.Client</class>
+  <method>afficherClient</method>
+  <thread>3</thread>
+  <message>-- Les comptes bancaires associes : ------</message>
+</record>
+<record>
+  <date>2026-11-02T19:00:59.721983100Z</date>
+  <millis>1793646059721</millis>
+  <nanos>983100</nanos>
+  <sequence>9</sequence>
+  <logger>system.Client</logger>
+  <level>INFO</level>
+  <class>system.Client</class>
+  <method>afficherClient</method>
+  <thread>3</thread>
+  <message>-- Les comptes bancaires associes : ------</message>
+</record>
+<record>
+  <date>2026-11-02T19:00:59.725708300Z</date>
+  <millis>1793646059725</millis>
+  <nanos>708300</nanos>
+  <sequence>10</sequence>
+  <logger>system.Client</logger>
+  <level>INFO</level>
+  <class>system.Client</class>
+  <method>afficherClient</method>
+  <thread>3</thread>
+  <message>Compte cr�e le Tue Jan 10 00:10:00 GMT 2017, NumCompte=1, Solde=1500.0]</message>
+</record>
+<record>
+  <date>2026-11-02T19:00:59.725708300Z</date>
+  <millis>1793646059725</millis>
+  <nanos>708300</nanos>
+  <sequence>10</sequence>
+  <logger>system.Client</logger>
+  <level>INFO</level>
+  <class>system.Client</class>
+  <method>afficherClient</method>
+  <thread>3</thread>
+  <message>Compte cr�e le Tue Jan 10 00:10:00 GMT 2017, NumCompte=1, Solde=1500.0]</message>
+</record>
+<record>
+  <date>2026-11-02T19:00:59.727558600Z</date>
+  <millis>1793646059727</millis>
+  <nanos>558600</nanos>
+  <sequence>11</sequence>
+  <logger>system.Client</logger>
+  <level>INFO</level>
+  <class>system.Client</class>
+  <method>afficherClient</method>
+  <thread>3</thread>
+  <message>Compte cr�e le Wed Jan 11 00:11:00 GMT 2017, NumCompte=2, Solde=2000.0]</message>
+</record>
+<record>
+  <date>2026-11-02T19:00:59.727558600Z</date>
+  <millis>1793646059727</millis>
+  <nanos>558600</nanos>
+  <sequence>11</sequence>
+  <logger>system.Client</logger>
+  <level>INFO</level>
+  <class>system.Client</class>
+  <method>afficherClient</method>
+  <thread>3</thread>
+  <message>Compte cr�e le Wed Jan 11 00:11:00 GMT 2017, NumCompte=2, Solde=2000.0]</message>
+</record>
+<record>
+  <date>2026-11-02T19:00:59.729569800Z</date>
+  <millis>1793646059729</millis>
+  <nanos>569800</nanos>
+  <sequence>12</sequence>
+  <logger>system.Client</logger>
+  <level>INFO</level>
+  <class>system.Client</class>
+  <method>afficherClient</method>
+  <thread>3</thread>
+  <message> nom du client:zakrani</message>
+</record>
+<record>
+  <date>2026-11-02T19:00:59.729569800Z</date>
+  <millis>1793646059729</millis>
+  <nanos>569800</nanos>
+  <sequence>12</sequence>
+  <logger>system.Client</logger>
+  <level>INFO</level>
+  <class>system.Client</class>
+  <method>afficherClient</method>
+  <thread>3</thread>
+  <message> nom du client:zakrani</message>
+</record>
+<record>
+  <date>2026-11-02T19:00:59.729569800Z</date>
+  <millis>1793646059729</millis>
+  <nanos>569800</nanos>
+  <sequence>12</sequence>
+  <logger>system.Client</logger>
+  <level>INFO</level>
+  <class>system.Client</class>
+  <method>afficherClient</method>
+  <thread>3</thread>
+  <message> nom du client:zakrani</message>
+</record>
+<record>
+  <date>2026-11-02T19:00:59.732757100Z</date>
+  <millis>1793646059732</millis>
+  <nanos>757100</nanos>
+  <sequence>13</sequence>
+  <logger>system.Client</logger>
+  <level>INFO</level>
+  <class>system.Client</class>
+  <method>afficherClient</method>
+  <thread>3</thread>
+  <message>le nom du client:zakrani</message>
+</record>
+<record>
+  <date>2026-11-02T19:00:59.732757100Z</date>
+  <millis>1793646059732</millis>
+  <nanos>757100</nanos>
+  <sequence>13</sequence>
+  <logger>system.Client</logger>
+  <level>INFO</level>
+  <class>system.Client</class>
+  <method>afficherClient</method>
+  <thread>3</thread>
+  <message>le nom du client:zakrani</message>
+</record>
+<record>
+  <date>2026-11-02T19:00:59.732757100Z</date>
+  <millis>1793646059732</millis>
+  <nanos>757100</nanos>
+  <sequence>13</sequence>
+  <logger>system.Client</logger>
+  <level>INFO</level>
+  <class>system.Client</class>
+  <method>afficherClient</method>
+  <thread>3</thread>
+  <message>le nom du client:zakrani</message>
+</record>
+<record>
+  <date>2026-11-02T19:00:59.742786200Z</date>
+  <millis>1793646059742</millis>
+  <nanos>786200</nanos>
+  <sequence>14</sequence>
+  <logger>system.Client</logger>
+  <level>INFO</level>
+  <class>system.Client</class>
+  <method>afficherClient</method>
+  <thread>3</thread>
+  <message>le prenom du client:abdelali</message>
+</record>
+<record>
+  <date>2026-11-02T19:00:59.742786200Z</date>
+  <millis>1793646059742</millis>
+  <nanos>786200</nanos>
+  <sequence>14</sequence>
+  <logger>system.Client</logger>
+  <level>INFO</level>
+  <class>system.Client</class>
+  <method>afficherClient</method>
+  <thread>3</thread>
+  <message>le prenom du client:abdelali</message>
+</record>
+<record>
+  <date>2026-11-02T19:00:59.742786200Z</date>
+  <millis>1793646059742</millis>
+  <nanos>786200</nanos>
+  <sequence>14</sequence>
+  <logger>system.Client</logger>
+  <level>INFO</level>
+  <class>system.Client</class>
+  <method>afficherClient</method>
+  <thread>3</thread>
+  <message>le prenom du client:abdelali</message>
+</record>
+<record>
+  <date>2026-11-02T19:00:59.745308800Z</date>
+  <millis>1793646059745</millis>
+  <nanos>308800</nanos>
+  <sequence>15</sequence>
+  <logger>system.Client</logger>
+  <level>INFO</level>
+  <class>system.Client</class>
+  <method>afficherClient</method>
+  <thread>3</thread>
+  <message>-- Les comptes bancaires associes : ------</message>
+</record>
+<record>
+  <date>2026-11-02T19:00:59.745308800Z</date>
+  <millis>1793646059745</millis>
+  <nanos>308800</nanos>
+  <sequence>15</sequence>
+  <logger>system.Client</logger>
+  <level>INFO</level>
+  <class>system.Client</class>
+  <method>afficherClient</method>
+  <thread>3</thread>
+  <message>-- Les comptes bancaires associes : ------</message>
+</record>
+<record>
+  <date>2026-11-02T19:00:59.745308800Z</date>
+  <millis>1793646059745</millis>
+  <nanos>308800</nanos>
+  <sequence>15</sequence>
+  <logger>system.Client</logger>
+  <level>INFO</level>
+  <class>system.Client</class>
+  <method>afficherClient</method>
+  <thread>3</thread>
+  <message>-- Les comptes bancaires associes : ------</message>
+</record>
+<record>
+  <date>2026-11-02T19:00:59.745308800Z</date>
+  <millis>1793646059745</millis>
+  <nanos>308800</nanos>
+  <sequence>16</sequence>
+  <logger>system.Client</logger>
+  <level>INFO</level>
+  <class>system.Client</class>
+  <method>afficherClient</method>
+  <thread>3</thread>
+  <message>Compte cr�e le Tue Jan 10 00:10:00 GMT 2017, NumCompte=1, Solde=500.0]</message>
+</record>
+<record>
+  <date>2026-11-02T19:00:59.745308800Z</date>
+  <millis>1793646059745</millis>
+  <nanos>308800</nanos>
+  <sequence>16</sequence>
+  <logger>system.Client</logger>
+  <level>INFO</level>
+  <class>system.Client</class>
+  <method>afficherClient</method>
+  <thread>3</thread>
+  <message>Compte cr�e le Tue Jan 10 00:10:00 GMT 2017, NumCompte=1, Solde=500.0]</message>
+</record>
+<record>
+  <date>2026-11-02T19:00:59.745308800Z</date>
+  <millis>1793646059745</millis>
+  <nanos>308800</nanos>
+  <sequence>16</sequence>
+  <logger>system.Client</logger>
+  <level>INFO</level>
+  <class>system.Client</class>
+  <method>afficherClient</method>
+  <thread>3</thread>
+  <message>Compte cr�e le Tue Jan 10 00:10:00 GMT 2017, NumCompte=1, Solde=500.0]</message>
+</record>
+<record>
+  <date>2026-11-02T19:00:59.762171700Z</date>
+  <millis>1793646059762</millis>
+  <nanos>171700</nanos>
+  <sequence>17</sequence>
+  <logger>system.Client</logger>
+  <level>INFO</level>
+  <class>system.Client</class>
+  <method>afficherClient</method>
+  <thread>3</thread>
+  <message>Compte cr�e le Wed Jan 11 00:11:00 GMT 2017, NumCompte=2, Solde=3000.0]</message>
+</record>
+<record>
+  <date>2026-11-02T19:00:59.762171700Z</date>
+  <millis>1793646059762</millis>
+  <nanos>171700</nanos>
+  <sequence>17</sequence>
+  <logger>system.Client</logger>
+  <level>INFO</level>
+  <class>system.Client</class>
+  <method>afficherClient</method>
+  <thread>3</thread>
+  <message>Compte cr�e le Wed Jan 11 00:11:00 GMT 2017, NumCompte=2, Solde=3000.0]</message>
+</record>
+<record>
+  <date>2026-11-02T19:00:59.762171700Z</date>
+  <millis>1793646059762</millis>
+  <nanos>171700</nanos>
+  <sequence>17</sequence>
+  <logger>system.Client</logger>
+  <level>INFO</level>
+  <class>system.Client</class>
+  <method>afficherClient</method>
+  <thread>3</thread>
+  <message>Compte cr�e le Wed Jan 11 00:11:00 GMT 2017, NumCompte=2, Solde=3000.0]</message>
+</record>
+</log>

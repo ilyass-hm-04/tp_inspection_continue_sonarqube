@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="fr"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Client.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">GestionComptes</a> &gt; <a href="index.source.html" class="el_package">system</a> &gt; <span class="el_source">Client.java</span></div><h1>Client.java</h1><pre class="source lang-java linenums">package system;
+
+import java.io.IOException;
+import java.util.logging.FileHandler;
+import java.util.logging.Level;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.logging.Logger;
+
+/**
+ * @author emsi
+ * @version 1.0
+ * @created 02-janvier 2023
+ */
+public class Client {
+
+	private String NomClient;
+	private int NumClient;
+	private String PrenomClient;
+<span class="pc" id="L20">	private List&lt;Compte&gt; mCompte=new ArrayList&lt;&gt;();</span>
+
+<span class="fc" id="L22">	public List&lt;Compte&gt; getMCompte() { return mCompte;}</span>
+	public void setMCompte(List&lt;Compte&gt; mCompte) {
+<span class="nc" id="L24">		this.mCompte = mCompte; }</span>
+	
+	
+<span class="fc" id="L27">	public Client(String nomClient, int numClient, String prenomClient) {</span>
+<span class="fc" id="L28">		NomClient = nomClient;</span>
+<span class="fc" id="L29">		NumClient = numClient;</span>
+<span class="fc" id="L30">		PrenomClient = prenomClient;</span>
+<span class="fc" id="L31">	}</span>
+<span class="nc" id="L32">	public Client(){</span>
+
+<span class="nc" id="L34">	}</span>
+
+	public void finalize() throws Throwable {
+
+<span class="nc" id="L38">	}</span>
+
+	public void afficherClient() {
+<span class="fc" id="L41">		logger.addHandler(fileHandler);</span>
+<span class="pc bpc" id="L42" title="1 of 2 branches missed.">		if (logger.isLoggable(Level.INFO)) {</span>
+<span class="fc" id="L43">			logger.info(&quot; nom du client:&quot;+getNomClient());</span>
+<span class="fc" id="L44">			logger.info(&quot;le nom du client:&quot;+getNomClient());</span>
+<span class="fc" id="L45">			logger.info(&quot;le prenom du client:&quot;+getPrenomClient());</span>
+<span class="fc" id="L46">			logger.info(&quot;-- Les comptes bancaires associes : ------&quot;);</span>
+<span class="fc bfc" id="L47" title="All 2 branches covered.">			for(var i=0;i&lt;getMCompte().size();i++) {</span>
+<span class="fc" id="L48">				logger.info(getMCompte().get(i).toString()); }</span>
+		}
+<span class="fc" id="L50">	}</span>
+
+	public String getNomClient(){
+<span class="fc" id="L53">		return NomClient;</span>
+	}
+
+	public int getNumClient(){
+<span class="nc" id="L57">		return NumClient;</span>
+	}
+
+	public String getPrenomClient(){
+<span class="fc" id="L61">		return PrenomClient;</span>
+	}
+
+	/**
+	 * 
+	 * @param newVal
+	 */
+	public void setNomClient(String newVal){
+<span class="nc" id="L69">		NomClient = newVal;</span>
+<span class="nc" id="L70">	}</span>
+
+	/**
+	 * 
+	 * @param newVal
+	 */
+	public void setNumClient(int newVal){
+<span class="nc" id="L77">		NumClient = newVal;</span>
+<span class="nc" id="L78">	}</span>
+
+	/**
+	 * 
+	 * @param newVal
+	 */
+	public void setPrenomClient(String newVal){
+<span class="nc" id="L85">		PrenomClient = newVal;</span>
+<span class="nc" id="L86">	}</span>
+
+<span class="pc" id="L88">	Logger logger = Logger.getLogger(Client.class.getName());</span>
+	FileHandler fileHandler;
+
+	public void initialiseFileHandler() throws
+			SecurityException, IOException {
+<span class="fc" id="L93">		fileHandler = new FileHandler(&quot;app.log&quot;);}</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.8.202204050719</span></div></body></html>
